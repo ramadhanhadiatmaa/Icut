@@ -1,0 +1,67 @@
+body {
+	background-color: #000;
+	-webkit-transition:background-color linear 5s;
+	-moz-transition:background-color linear 5s;
+	-o-transition:background-color linear 5s;
+	-ms-transition:background-color linear 5s;
+	transition:background-color linear 5s;
+	overflow-x:hidden;
+	font-family: Monaco, Consolas, "Lucida Console", monospace;
+	color: #000;
+}
+.container {
+	display: none;
+}
+.peach {
+	background-image: url("back.png");
+	background-size: cover;
+}
+
+.nodisplay {
+	display: none;
+}
+
+audio {
+	display: none;
+}
+
+.control-panel {
+	position: fixed;
+	bottom: 0;
+	padding:10px 0px 10px 0px;
+}
+#play, #bannar_coming, #balloons_flying,#cake_fadein,#light_candle,#wish_message,#story, #code {
+	display: none;
+}
+
+.message {
+	margin-top: 200px;
+	display: none;
+}
+.message p {
+	font-family: 'Signika', sans-serif;
+	font-size: 28px;
+	text-transform: uppercase;
+	color: #fff;
+	display: none;
+	font-weight: bold;
+}
+
+.btn-primary {
+        border-color: #FF477E;
+        padding: 10px;
+        text-transform: uppercase;
+        font-family: 'Signika', sans-serif;
+        font-weight: 700;
+        color: #fff;
+        background-color: #FF477E;
+}
+    .btn-primary:hover,
+    .btn-primary:focus,
+    .btn-primary:active,
+    .btn-primary.active,
+    .open .dropdown-toggle.btn-primary {
+        border-color: #fff;
+        color: #fff;
+        background-color: #FF477E;
+    }
